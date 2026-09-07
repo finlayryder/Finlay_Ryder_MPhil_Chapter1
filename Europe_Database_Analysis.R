@@ -99,7 +99,7 @@ dev.off()
 
 
 
-arthropod_tree <- read.tree(here("arthropods_genus.nwk"))
+arthropod_tree <- read.tree(here("TimeTree_Phylogenies/arthropods_genus.nwk"))
 arthropod_tree_extract <- sub("-.*", "", arthropod_tree$tip.label)
 target_taxa <- ffg_indices %>% 
   pull(Genus) %>% 
@@ -144,6 +144,7 @@ gheatmap(
 dev.off()
 
 
+geom_tiplab(align = TRUE, size = 1, offset = 0.01)
 
 
 
@@ -228,6 +229,32 @@ fit <- brm(form,
 summary(fit)
 
 
+posterior <- as_draws_df(fit)
+
+phylo_cols <- grepl("^sd_Genus__", colnames(posterior))
+sd_phylo_mat <- posterior[, phylo_cols]
+var_phylo_mat <- sd_phylo_mat^2
+phylo_var <- rowSums(var_phylo_mat)
+phi_samples <- posterior$phi
+
+mu_mat <- tip_data_condensed %>% select(2) %>% as.matrix()
+mu <- colMeans(mu_mat)
+
+resid_var <- sapply(phi_samples, function(phi_s) {
+  sum(mu * (1 - mu) / (1 + phi_s))
+})
+
+VPC_post <- phylo_var / (phylo_var + resid_var)
+
+VPC_summary <- tibble(
+  mean_VPC = mean(VPC_post),
+  lower_CI = quantile(VPC_post, 0.025),
+  upper_CI = quantile(VPC_post, 0.975)
+)
+
+print(VPC_summary)
+
+
 
 
 
@@ -269,9 +296,6 @@ dirichlet_vpc <- function(fit) {
   
   return(vpc_summary)
 }
-
-
-
 vpc_multivariate <- dirichlet_vpc(fit)
 print(vpc_multivariate)
 
