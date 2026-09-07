@@ -1,0 +1,499 @@
+﻿v.19.2.18,,,Trait category,MORPHOLOGY,,,,,LIFE HISTORY,,,,LIFE HISTORY,,,LIFE HISTORY,,LIFE HISTORY,,,,,LIFE HISTORY,,,LIFE HISTORY,,,,LIFE HISTORY,,,MOBILITY,,,MOBILITY,,,,MORPHOLOGY,,,MORPHOLOGY,,,,RESOURCE ACQUISITION,,,,,,RESOURCE ACQUISITION,,,MORPHOLOGY,,,,LIFE HISTORY,,
+,,,Biological traits,Maximum potential size,,,,,Maximum number of descendants per reproductive cycle,,,,Maximum number of reproductive cycles per year,,,Number of reproductive cycles per individual,,Life duration of adults includes,,,,,Reproductive technique,,,Oviposition Site,,,,Egg/egg mass,,,Dissemination potential (all stages),,,Attachment to substrate of aquatic stages (excluding eggs),,,,Body flexibility,,,Body form,,,,Feeding habits,,,,,,Dietary preferences,,,Respiration of aquatic stages (not including eggs),,,,Aquatic stages,,
+,,,Code,SIZE1,SIZE2,SIZE3,SIZE4,SIZE5,DESC1,DESC2,DESC3,DESC4,SEMI,UNIV,PLURIV,CPI1,CPI2,LDA1,LDA2,LDA3,LDA4,LDA5,SINGLE,HERMA,TWO,SURFACE,SUBMERGED,TERRESTRIAL,EGGENDO,EGGFREE,EGGCEMENT,EGGPROTECTED,DISSLOW,DISSMEDIUM,DISSHIGH,SWIMMER,CRAWLER,BURROWER,ATTACHED,NOFLEX,LOWFLEX,HIGHFLEX,STREAMLINED,FLATTENED,CYLINDRICAL,SPHERICAL,SHREDDER,SCRAPER,DEPOSIT,FILTERFEED,PREDATOR,ALGALP,SPECIALIST,MODERATESPE,GENERALIST,TEGUMENT,GILL,PLASTRON,AERIAL,ADUANDLAR,ADUORLAR,LARANDPUP
+Order,Family,Genus or Higher,Taxon/trait modality,<=5 mm,>5-10 mm,>10-20 mm,>20-40 mm,>40 mm,<=100,>100-1000,>1000-3000,>3000,semivoltine,univoltine,plurivoltine,1,> or =2,<=1 day,>1-10 days,>10-30 days,>30-365days,>365 days,single individual,hermaphrodism,male and female,water surface,submerged,terrestrial,eggs endophytic,free,cemented ,female bears eggs in/on body,low (10 m),medium (1 km),high (>1km),swimmers (water column),crawlers (epibenthic),burrowers (infauna),attached,none (<10°),low (>10-45°),high (>45°),streamlined,flattened (dorso-ventral or lateral),cylindrical,spherical,shredders,scrapers,deposit-feeders,filter-feeders,predator,algal piercer,strong (specialist),moderate,weak (generalist),tegument,gills,plastron,aerial,"Adult, larva",Adult or larva,"Larva, Pupa"
+Acarina,Acarina,Acarina,Acarina,3,1,0,0,0,0,3,0,0,0,0,3,3,1,0,0,0,3,0,0,0,3,0,3,0,2,0,3,0,0,2,2,3,3,0,1,3,0,0,0,2,0,3,0,0,0,0,3,0,2,2,0,3,0,0,1,3,0,0
+Bryozoa,Bryozoa,Bryozoa,Bryozoa,2,2,2,3,3,0,0,0,3,0,0,3,0,3,0,0,0,2,3,3 buds,3 sexual,0,0,3,0,0,3,0,0,0,2,2,0,0,0,3,0,3,0,0,0,3 polyps ?,0,0,0,0,3,0,0,0,0,3,3,0,0,0,3,0,0
+Coleoptera,Dytiscidae,Antiporus,Antiporus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,1,0,0,3,0,3,0,3,3,0,0,0,2,2,3,3,0,0,2,2,0,2,0,2,0,0,0,0,0,3,0,0,2,2,2,0,0,3,3,0,0
+Coleoptera,Hydrophilidae,Berosus,Berosus,0,3,0,0,0,2,2,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,2,2,2,3,0,0,2,2,0,1,2,0,0,0,3,0,0,3,0,0,2,2,1,3,3,0,3,0,0
+Coleoptera,Ptilodactylidae,Byrrhocryptus,Byrrhocryptus urquharti,0,3,0,3,0,0,0,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,0,3,0,0,3,3,0,2,0,2,0,2?,3,2?,0,0,0,0,0,3,3,0,0,0,0,3,1
+Coleoptera,Curculionidae,Curculionidae,Curculionidae,0,3,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,3,0,0,0,3,0,0,3,3,3,0,0,0,2,2,0,3,0,0,3,0,0,0,0,3,0,3,0,0,0,0,0,0,0,3,2,0,0,3,0,3,1
+Coleoptera,Dytiscidae,Dytiscidae,Dytiscidae,0,0,3,0,0,0,3,0,0,0,3,0,0,3,0,0,0,3,1,0,0,3,0,3,0,3,2,2?,0,0,2,2,3,2,0,0,2,2,0,2,2,2,0,0,0,0,0,3,0,0,2,2,2,0,3,0,3,0,0
+Coleoptera,Elmidae,Elmidae,Elmidae,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,0,3,3,0,0,3,0,2,2,0,2,2?,0,0,2,2,0,3,0,0,3,3,0,2,0,3,0,0,3,0,0,0,0,0,0,3,0,3,3,0,3,0,0
+Coleoptera,Hydrophilidae,Enochrus,Enochrus,2,2,0,0,0,2,2,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,2,2,2,2,2,0,2,2,0,2,2,0,0,0,0,0,0,3,0,0,0,3,2,0,3,0,3,0,0
+Coleoptera,Gyrinidae,Gyrinidae,Gyrinidae,0,0,3,0,0,3,0,0,0,0,3,0,3,0,0,2,3,0,0,0,0,3,0,3,0,0,0,3?,0,0,2,2,3,2,0,0,2,2,0,2,0,2,0,0,0,0,0,3,0,0,3,0,0,3,3,0,3,0,0
+Coleoptera,Dytiscidae,Onychohydrus,Onychohydrus,0,0,3,0,3,0,0,0,0,0,3,0,3,0,0,0,0,3,1,0,0,3,0,3,0,3,3,0,0,0,2,2,3,3,0,0,2,2,0,2,2,2,0,0,0,0,0,3,0,0,0,3,2,0,3,0,3,0,0
+Coleoptera,Hydrophilidae,Hydrophilidae,Hydrophilidae,0,3,0,0,0,2,2,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,3,3,0,3,0,2,0,2,2,2,2,1,0,2,2,0,2,2,0,0,0,2,0,0,3,0,0,2,2,2,0,3,0,3,0,0
+Coleoptera,Hydrophilidae,Laccobius,Laccobius arrowi,3,0,0,0,0,2,2,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,2,2,3,2,0,0,2,2,0,2,2,0,0,0,2,0,0,3,0,0,0,3,2,0,3,0,3,0,0
+Coleoptera,Dytiscidae,Liodessus,Liodessus,3,0,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,3,1,0,0,3,0,3,0,3,3,0,0,0,2,2,3,2,0,0,2,2,0,2,0,3,2,0,0,0,0,3,0,0,2,2,2,0,3,0,3,0,0
+Coleoptera,Hydraenidae,Orchymontia,Orchymontia,3,0,0,0,0,3,0,0,0,0,3,0,3,0,0,0,2,2,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,2,2,0,0,1,1,0,2,2,2,0,0,0,0,2,2,2,0,3,0,3,3,0
+Coleoptera,Dytiscidae,Phreatodessus,Phreatodessus,3,0,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,3,1,0,0,3,0,3,0,0,0,3?,0,0,2,2,3,2,0,0,2,2,0,2,0,2,0,0,0,0,0,3,0,2?,2,0,3,0,3,0,3,0,0
+Coleoptera,Dytiscidae,Rhantus,Rhantus,0,0,3,0,0,0,0,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,3,0,3,3,0,0,0,2,2,3,0,0,0,2,2,0,3,2,3,0,0,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0
+Coleoptera,Scirtidae,Scirtidae,Scirtidae,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,0,3,0,0,3,0,0,2,2,0,3,2,0,0,3,1,0,2,3,0,2,2,2,1,0,0,0,2,2,2,3,0,0,0,3,0
+Coleoptera,Staphylinidae,Staphylinidae,Staphylinidae,0,3,0,3,0,0,0,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,0,3,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,1,3,0,0,0,0,0,3,0,0,2,2,0,0,0,3,1,0,0
+Crustacea,Amphipoda,Amphipoda,Amphipoda,1,3,1,0,0,3,0,0,0,0,3,3,3,0,0,0,0,3,2,0,0,3,0,3,0,0,0,0,3,2,3,0,1,3,2,0,0,3,0,0,3,1,0,0,3,3,0,0,0,0,0,3,0,3,0,0,3,0,0
+Crustacea,Amphipoda/Ceinidae,Chiltonia,Chiltonia,2,2,0,0,0,3,0,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,2,2,0,1,3,2,0,0,3,0,0,3,1,0,0,3,2,0,0,0,0,0,3,0,3,0,0,3,0,0
+Crustacea,Cladocera,Cladocera,Cladocera,3,1,0,0,0,3,1,0,0,0,0,3,0,3,0,0,3,3,0,3,0,2,0,2,0,0,3,0,3,3,2,1,2,2,2,0,3,0,0,0,3,0,3,0,3,0,3,0,0,0,0,3,3,0,0,0,3,0,0
+Hexapoda,Collembola,Collembola,Collembola,3,0,0,0,0,2,2,0,0,0,0,3,3,0,0,2,2,2,0,0,0,3,2,0,2,0,0,2,0,2,2,2,0,0,0,0,0,2,0,0,0,3,0,3,3,3,0,0,0,0,0,3,0,0,0,3,3,0,0
+Crustacea,Copepoda,Copepoda,Copepoda,3,0,0,0,0,3,0,0,0,0,0,3,0,3,0,0,2,2,2,1,0,3,0,3,0,0,0,0,3,3,0,0,2,2,2,0,0,3,0,2,0,3,0,0,2,0,2,2,0,0,0,3,3,0,0,0,3,0,0
+Crustacea,Amphipoda/Phreatogammaridae,Phreatogammaridae,Phreatogammaridae,2,2,2,1,0,3,0,0,0,0,2,3,3,0,0,0,0,1,2,0,0,3,0,3,0,0,0,0,3,2,2,0,2,2,2,0,0,3,0,0,3,1,0,0,1,3,0,0,0,0,0,3,0,3,0,0,3,0,0
+Crustacea,Isopoda,Isopoda,Isopoda,0,0,3,1,0,3,0,0,0,0,3,0,3,1,0,0,0,1,3,0,0,3,0,3,0,0,0,0,3,3,2,0,1,2,3,0,0,3,0,0,3,2,0,2,3,3,0,1,0,0,0,3,0,3,0,0,3,0,0
+Crustacea,Mysidae,Mysidae,Mysidae,0,0,3,0,0,3,0,0,0,0,2,2,1,2,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,3,0,3,1,0,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,3,0,0,0,3,0,0
+Crustacea,Ostracoda,Ostracoda,Ostracoda,3,0,0,0,0,3,0,0,0,0,0,3,0,3,0,0,2,2,0,3,0,1,0,3,0,0,0,2,2,3,0,0,2,3,1,0,3,0,0,0,3,0,1,2,2,3,0,2,0,0,0,3,3,0,0,0,3,0,0
+Crustacea,Amphipoda/Paracalliopidae,Paracalliope,Paracalliope fluviatilis,3,0,0,0,0,3,0,0,0,0,3,2,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,3,0,3,3,0,0,0,3,0,0,3,0,0,0,3,2,0,0,0,0,0,3,0,3,0,0,3,0,0
+Crustacea,Amphipoda/Paraleptamphopidae,Paraleptamphopus,Paraleptamphopus caeruleus,3,0,0,0,0,3,0,0,0,0,3,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,2,2,0,0,3,2,0,0,3,0,0,3,1,0,0,3,3,0,0,0,0,0,3,0,3,0,0,3,0,0
+Crustacea,Decapoda/Parastacidae,Paranephrops,Paranephrops,0,0,0,0,3,0,3,0,0,1,3,0,3,0,0,0,0,0,3,0,0,3,0,3,0,0,0,0,3,0,2,2,1,3,2,0,0,3,0,0,0,3,0,3,2,0,0,3,0,0,0,3,0,3,0,0,3,0,0
+Crustacea,Decapoda/Atyidae,Paratya,Paratya curvirostris,0,0,0,3,0,0,0,0,3,0,3,0,3,0,0,0,0,3,2,0,0,3,0,3,0,0,0,0,3,0,0,3,2,3,0,0,0,3,0,0,0,3,0,0,3,3,0,0,0,0,0,3,0,3,0,0,3,0,0
+Crustacea,Phreatiocidae,Phreatoicus,Phreatoicus,0,0,3,1,0,3,0,0,0,0,3,0,3,0,0,0,0,1,3,0,0,3,0,3,0,0,0,0,3,3,0,0,0,1,3,0,0,3,1,0,2,2,0,1,1,3,0,0,0,0,0,3,0,3,0,0,3,0,0
+Crustacea,Amphipoda/Phreatogammaridae,Phreatogammarus,Phreatogammarus fragilis,0,0,3,2,0,3,0,0,0,0,2,0,3,0,0,0,0,1,2,0,0,3,0,3,0,0,0,0,3,2,2,0,2,2,3,0,0,3,0,0,3,3,0,1,1,3,0,0,0,0,0,3,0,3,0,0,3,0,0
+Crustacea,Syncarida,Syncarida,Syncarida,3,0,0,0,0,3,0,0,0,0,2,2,3,0,0,0,0,2,2,0,0,3,0,3,0,0,0,0,3,3,0,0,0,0,3,0,0,3,0,3,0,3,0,0,1,3,0,0,0,0,0,3,0,2,0,0,3,0,0
+Crustacea,Tanaidacea,Sinelobus,Sinelobus stanfordi,3,0,0,0,0,3,0,0,0,0,2,2,0,2,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,3,2,0,1,3,2,0,0,3,0,0,2,3,0,0,2,3,2,0,0,0,2,2,3,0,0,0,3,0,0
+Diptera,Tipulidae,Aphrophila,Aphrophila neozelandica,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,2,2,2,2,0,0,3,2,2,2,0,3,0,0,2,2,1,0,1,3,0,0,0,3,0,0,3,0,0,3,3,0,3,0,0,0,3,2,0,0,0,0,0,3
+Diptera,Simuliidae,Austrosimulium,Austrosimulium,0,3,0,0,0,0,3,0,0,0,0,3,3,2,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,3,0,0,3,0,0,1,0,3,0,0,0,0,3,1,3,0,0,0,0,3
+Diptera,Blephariceridae,Blephariceridae,Blephariceridae,0,3,3,0,0,0,0,0,0,0,3,0,3,0,0,3,1,0,0,0,0,3,0,3,0,0,0,3,0,3,2,0,0,0,0,3,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,0,3
+Diptera,Ceratopogonidae,Ceratopogonidae,Ceratopogonidae,0,3,0,0,0,0,3,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,3,0,0,3,0,0,2,2,2,2,2,3,0,1,3,1,0,0,3,0,0,3,0,0,3,0,1,2,2,3,0,0,0,0,0,3
+Diptera,Chironomidae,Chironomus,Chironomus zealandicus,0,0,3,0,0,0,0,3,0,0,0,3,3,0,0,3,0,0,0,3,0,3,3,3,0,0,0,3,0,2,2,1,0,1,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Orthocladiinae,Corynoneura,Corynoneura scutellata,3,0,0,0,0,3,2,0,0,0,0,3,3,0,0,3,0,0,0,3,0,3,0,3,0,0,0,3,0,0,2,2,0,3,0,0,0,0,3,0,0,3,0,0,3,0,0,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Orthocladiinae,Cricotopus,Cricotopus,0,3,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,1,0,3,2,0,0,0,3,3,0,2,2,0,0,2,1,3,0,0,3,0,0,3,0,0,3,0,0,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Chironomidae,Cryptochironomus,Cryptochironomus,0,0,3,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,0,0,0,0,3,0,2,2,1,0,1,3,0,0,0,3,0,0,3,0,0,1,0,0,3,0,0,2,2,3,0,0,0,0,0,3
+Diptera,Culicidae,Culex,Culex,0,3,0,0,0,0,3,0,0,0,0,3,3,0,0,0,0,3,0,0,0,3,3,0,0,0,3,0,0,0,0,3,3,0,0,0,0,0,3,0,0,3,0,0,0,0,3,0,0,0,0,3,1,0,0,3,0,0,3
+Diptera,Culicidae,Culicidae,Culicidae,0,0,3,0,0,0,3,0,0,0,0,3,3,0,0,0,2,3,0,0,0,3,3,0,2,0,2,2,0,0,0,3,3,0,0,0,0,0,3,0,0,3,0,0,1,0,3,0,0,0,0,3,1,0,0,3,0,0,3
+Diptera,Diamesinae,Diamesinae,Diamesinae,0,3,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,2,2,0,0,0,3,0,0,3,0,0,3,2,2,0,0,3,0,0,3,0,0,3,0,0,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Dolichopodidae,Dolichopodidae,Dolichopodidae,0,3,0,0,0,0,0,0,0,0,0,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,3,0,0,3,2,0,0,2,2,0,0,0,3,0,0,3,0,0,0,0,0,3,0,3?,0,0,0,0,0,3,0,0,3
+Diptera,Empididae,Empididae,Empididae,2,2,0,0,0,2,2,0,0,0,3,0,3,0,0,2,2,2,2,0,0,3,0,0,2,0,0,3,0,0,0,3,0,2,2,0,0,0,3,0,0,3,0,0,1,0,0,3,0,0,2,2,1,0,0,3,0,0,3
+Diptera,Ephydridae,Ephydridae,Ephydridae,0,3,0,0,0,2,2,0,0,0,0,3,3,0,0,2,2,2,2,0,0,3,0,0,3,0,3,0,0,0,0,3,0,2,2,0,0,0,3,0,0,3,0,0,2,0,0,0,0,0,0,3,0,0,0,3,0,0,3
+Diptera,Tipulidae,Eriopterini,Eriopterini,0,0,3,0,0,0,0,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,1,0,0,3,0,0,2,2,2,0,0,3,0,0,0,3,0,0,3,0,0,3,0,0,0,0,0,0,3,2,0,0,3?,0,3,1
+Diptera,Orthocladiinae,Eukiefferiella,Eukiefferiella,3,0,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,0,0,0,0,3,0,2,2,2,0,3,0,0,0,0,3,0,0,3,0,0,3,0,0,2,0,0,2,2,3,0,0,0,0,0,3
+Diptera,Chironomini,Harrisius,Harrisius,3,0,0,0,0,2,2,0,0,0,0,3,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,0,3,0,0,0,3,0,0,3,0,3,0,0,0,0,0,3,0,0,3,0,0,0,0,0,3
+Diptera,Orthocladiinae,Kaniwhaniwhanus,Kaniwhaniwhanus,3,0,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,0,2,2,0,3,0,0,0,0,3,0,0,3,0,0,2,2,0,0,0,0,0,0,3,0,0,0,0,0,3
+Diptera,Muscidae,Limnophora,Limnophora,0,0,3,0,0,0,0,0,0,0,3,0,3,0,0,3,0,0,0,0,0,0,0,0,3,0,3,0,0,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,3,0,2,2,0,0,0,0,3,0,0,3
+Diptera,Tipulidae/Limonini,Limonia,Limonia nigrescens,0,0,3,0,0,0,0,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,0,3,0,3,0,0,2,2,0,0,0,3,0,0,0,3,0,0,3,0,3,0,0,0,2,0,3,0,0,0,0,0,3,0,0,3
+Diptera,Diamesinae,Lobodiamesa,Lobodiamesa campbelli,3,0,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,0,3,0,0,3,0,2,2,0,0,0,3,0,0,0,3,0,0,3,0,0,2,0,0,0,0,0,0,0,3,0,0,0,0,0,3
+Diptera,Chironomidae,Macropelopiini,Macropelopiini 1,0,2,3,0,0,0,3,0,0,0,2,2,3,0,0,3,0,0,0,0,0,3,0,0,3,0,0,3,0,2,2,0,0,2,2,0,0,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3
+Diptera,Diamesinae,Maoridiamesa,Maoridiamesa,0,3,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,?,3,0,0,3,0,2,2,1,0,3,0,1,0,0,3,0,0,3,0,0,3,2,0,0,0,0,0,0,3,0,0,0,0,0,3
+Diptera,Tanyderidae,Mischoderus,Mischoderus,0,0,3,0,0,0,0,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,?,0,0,3,0,0,2,2,0,0,1,2,0,0,0,3,0,0,3,0,0,0,3,0,0,0,2?,2,0,3,3,0,0,0,0,3
+Diptera,Tipulidae/Eriopterini,Molophilus,Molophilus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,2,2,2,2,2,0,0,3,0,?,0,0,3,0,0,0,3,2,0,0,3,0,0,0,3,0,0,3,0,3?,3,0,0,0,0,2?,2,0,0,0,0,3,0,3,?
+Diptera,Chironomidae,Naonella,Naonella,3,0,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,3,2,0,0,3,0,0,0,0,3,0,0,3,0,0,3,0,0,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Blephariceridae,Neocurupira,Neocurupira hudsoni,0,3,0,0,0,2,2,0,0,0,3,0,3,0,0,3,1,0,0,0,0,3,0,3,0,0,0,3,0,3,2,0,0,0,0,3,0,2,0,3,2,1,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,0,3
+Diptera,Ephydridae,Scatella,Scatella vittithorax,0,3,0,0,0,0,3,0,0,0,0,3,3,0,0,0,0,2,2,0,0,3,0,0,3,0,3,0,0,0,0,3,0,2,2,0,0,0,3,0,0,3,0,0,2,0,0,0,0,0,0,3,0,0,0,3,0,0,3
+Diptera,Dixidae,Nothodixa,Nothodixa,0,3,0,0,0,3,0,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,0,3,0,0,3,0,2,2,0,2,3,0,0,0,0,3,0,0,3,0,0,3,0,0,0,0,0,0,3,0,0,0,3,0,0,3
+Diptera,Stratiomyidae,Odontomyia,Odontomyia,0,0,3,0,0,0,0,0,0,3,0,0,3,0,0,3,0,0,0,0,0,3,0,3,3,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,2,3,0,0,3,0,0,0,0,0,0,3,0,0,0,3,0,0,3
+Diptera,Orthocladiinae,Orthocladiinae,Orthocladiinae,3,3,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,3,3,0,0,0,3,0,2,2,2,0,3,2,1,0,0,3,0,0,3,0,0,3,2,0,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Dixidae,Paradixa,Paradixa,0,3,0,0,0,3,0,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,0,3,0,0,3,0,2,2,0,2,3,0,0,0,0,3,0,0,3,0,0,3,0,0,0,0,0,0,3,0,0,0,3,0,0,3
+Diptera,Tipulidae/Hexatomini,Paralimnophila,Paralimnophila skusei,0,0,3,0,0,2,2,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,1,0,0,3,0,0,2,2,2,0,2,2,0,0,0,3,0,0,3,0,0,0,2,0,3,0,2,2,0,0,0,0,3,0,3,?
+Diptera,Tanytarsini,Paratanytarsus,Paratanytarsus grimmi,0,3,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,3,0,3,0,3,0,0,0,3,0,0,2,2,0,3,0,0,0,0,3,0,0,3,0,0,3,0,1,0,0,0,1,3,3,0,0,0,0,0,3
+Diptera,Chironomidae,Paratrichocladius,Paratrichocladius,0,3,0,0,0,3,1,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,2,2,0,0,0,3,0,0,3,0,0,3,0,0,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Chironomidae/Podonominae,Parochlus,Parochlus,3,0,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,3,0,0,3,0,0,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Chironomidae,Paucispinigera,Paucispinigera approximata,3,1,0,0,0,2,2,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,0,3,0,2,2,0,0,0,3,0,0,0,3,0,0,3,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,3
+Diptera,Pelecorhynchidae,Pelecorhynchidae,Pelecorhynchidae,3,0,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,?,0,3,0,0,2,2,0,0,1,3,0,0,0,3,0,0,3,0,0,0,0,0,3,0,3?,0,0,3,0,0,0,0,3,0
+Diptera,Blephariceridae,Peritheates,Peritheates,0,3,0,0,0,2,2,0,0,0,3,0,3,0,0,3,1,0,0,0,0,3,0,3,0,0,0,3,0,3,2,0,0,0,0,3,0,2,0,3,2,1,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,0,3
+Diptera,Chironomidae,Pirara,Pirara,3,0,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,0,3,0,0,3,0,0,3,0,0,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Podonominae,Podonominae,Podonominae,0,3,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,0,0,3,0,0,3,0,0,0,3,0,0,3,0,0,3,0,0,0,0,0,0,0,3,0,0,0,0,0,3
+Diptera,Chironomini,Polypedilum,Polypedilum canum,0,3,0,0,0,0,3,0,0,0,2,3,3,0,0,3,0,0,0,0,0,3,3,0,0,0,0,3,0,2,2,0,0,3,0,0,0,0,3,0,0,3,0,0,2,0,0,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Orthocladiinae,Psectrocladius,Psectrocladius,0,3,1,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,0,0,0,0,3,0,0,2,2,0,2,2,0,0,0,3,0,0,3,0,0,2,2,0,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Psychodidae,Psychoda,Psychoda,3,0,0,0,0,3,0,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,0,0,3,0,0,3,0,0,0,3,0,1,3,0,0,3,0,0,0,0,2?,2,0,1,0,0,3,0,0,3
+Diptera,Sciomyzidae,Sciomyzidae,Sciomyzidae,0,3,0,0,0,0,3,0,0,0,0,3,3,0,0,2,2,2,0,0,0,3,0,0,3,0,3,0,0,0,0,3,1,2,2,0,0,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,0,0,3,0,0,3
+Diptera,Chironomidae,Stictocladius,Stictocladius,0,3,0,0,0,0,3,0,0,0,0,3,3,0,0,3,0,0,0,0,0,3,0,0,3,0,0,3,0,0,2,2,1,2,2,0,0,0,3,0,0,3,0,0,0,0,0,3?,0,3,0,0,3,0,0,0,0,0,3
+Diptera,Syrphidae,Syrphidae,Syrphidae,0,0,3,0,0,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0,0,3,0,0,3,0,3,0,0,0,0,3,0,3,0,0,0,0,0,0,0,3,0,0,2,2,0,0,0,0,0,3,0,0,0,3,0,3,0
+Diptera,Tabanidae,Tabanidae,Tabanidae,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,2,2,0,0,3,0,0,3,0,0,3,0,0,0,3,0,1,3,0,0,0,3,0,0,3,0,0,0,0,0,3,0,3?,0,0,0,0,0,3,0,3,0
+Diptera,Tanypodinae,Tanypodinae,Tanypodinae,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,2,2,2,0,2,2,0,0,0,3,3,3,0,0,0,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3
+Diptera,Tanytarsini,Tanytarsus,Tanytarsus,3,0,0,0,0,2,2,0,0,0,0,3,3,0,0,3,0,0,0,3,0,3,0,3,0,0,0,3,0,0,0,3,0,3,0,1,0,0,3,0,0,3,0,0,1,0,3,0,0,0,0,3,3,0,0,0,0,0,3
+Diptera,Thaumaleidae,Thaumaleidae,Thaumaleidae,0,3,0,0,0,0,0,0,0,0,0,3,3,0,0,3,0,0,0,0,0,0,0,0,3,0,3,0,0,0,2,0,0,3,0,0,0,0,3,0,0,0,0,0,3,0,0,0,0,0,2,2,0,0,0,3,0,3,0
+Diptera,Tipulidae/Tipulinae,Zelandotipula,Zelandotipula,0,0,0,3,0,0,3,0,0,3,0,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,0,3,0,0,0,3,0,0,3,0,0,1,3,0,0,0,0,0,3,0,0,0,3,0,3,?
+Ephemeroptera,Ameletopsidae,Ameletopsis,Ameletopsis perscitus,0,0,3,0,0,0,0,0,3,0,3,0,3,0,0,3,1,0,0,0,0,3,3,0,0,0,3,0,0,0,3,1,1,3,1,0,0,2,0,1,3,0,0,0,0,0,0,3,0,3,2,0,1,3,0,0,0,3,0
+Ephemeroptera,Coloburiscidae,Coloburiscus,Coloburiscus humeralis,0,0,3,0,0,0,0,0,3,0,3,0,3,0,0,3,1,0,0,0,0,3,3,0,0,0,3,0,0,1,3,1,0,2,0,3,0,2,0,0,0,2,0,0,0,0,3,0,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Ichthybotidae,Ichthybotus,Ichthybotus bicolor,0,0,0,3,0,0,1,3,0,3,0,0,3,0,0,3,1,0,0,0,0,3,3,0,0,0,3,0,0,1,3,0,0,0,3,0,0,3,1,0,0,3,0,0,0,3,0,1,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Ichthybotidae,Ichthybotus,Ichthybotus hudsoni,0,0,0,3,0,0,1,3,0,3,0,0,3,0,0,3,1,0,0,0,0,3,3,0,0,0,3,0,0,1,3,0,0,0,3,0,0,3,1,0,0,3,0,0,0,3,0,1,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Acanthophlebia,Acanthophlebia cruentata,0,0,3,0,0,0,3,1,0,0,3,0,3,0,0,3,2,0,0,0,0,3,3,0,0,0,3,0,0,2,3,1,0,2,3,0,0,2,0,1,3,0,0,0,3,2,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Arachnocolus,Arachnocolus phillipsi,0,3,0,0,0,0,3,1,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,1,2,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Atalophlebioides,Atalophlebioides cromwelli,0,3,0,0,0,0,3,1,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,3,0,0,2,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Aupouriella,Aupouriella pohei,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,3,1,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Austroclima,Austroclima jollyae,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,0,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Austroclima,Austroclima sepia,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,1,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Austronella,Austronella planulata,0,3,0,0,0,0,3,1,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,3,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) angustum,0,3,0,0,0,0,3,1,0,0,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) atricolor,0,0,3,0,0,0,3,1,0,1,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) autumnale,0,3,0,0,0,0,3,1,0,0,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) branchiola,0,3,0,0,0,0,3,1,0,1,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,3,1,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) cerinum,0,3,0,0,0,0,3,1,0,0,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) fumosum,0,3,0,0,0,0,3,1,0,0,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) kiwa,0,3,0,0,0,0,3,1,0,0,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,3,1,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) lillii,0,3,0,0,0,0,3,1,0,0,3,1,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) magnum,0,0,3,0,0,0,3,1,2,0,2,2,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) myzobranchia,0,0,3,0,0,0,3,1,0,0,2,2,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) townsi,0,3,0,0,0,0,3,1,0,0,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) vernale,0,3,0,0,0,0,3,1,0,0,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Deleatidium) wardorum,0,3,0,0,0,0,3,1,0,0,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Penniketellum) cornutum,0,0,3,0,0,0,3,1,0,1,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Penniketellum) insolitum,0,0,3,0,0,0,3,1,0,1,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,3,1,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Deleatidium,Deleatidium (Penniketellum) patricki,0,0,3,0,0,0,3,1,0,1,3,0,3,0,1,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Isothraulus,Isothraulus abditus,0,3,0,0,0,0,3,1,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,2,2,0,3,1,0,0,3,0,0,0,2,0,0,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Mauiulus,Mauiulus aquilus,0,3,0,0,0,0,3,1,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Mauiulus,Mauiulus luma,0,3,0,0,0,0,3,1,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Neozephlebia,Neozephlebia scita,0,3,0,0,0,0,3,1,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Tepakia,Tepakia caligata,0,3,0,0,0,0,3,1,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,2,2,0,2,2,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Zephlebia,Zephlebia borealis,0,0,3,0,0,0,2,2,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Zephlebia,Zephlebia dentata,0,3,0,0,0,0,2,2,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,1,3,1,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Zephlebia,Zephlebia inconspicua,0,3,0,0,0,0,2,2,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Zephlebia,Zephlebia nebulosa,0,0,3,0,0,0,2,2,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Zephlebia,Zephlebia pirongia,0,0,3,0,0,0,2,2,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Hemiptera,Notonectidae,Anisops,Anisops,0,3,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,3,0,0,0,3,0,0,0,3,3,0,0,0,0,3,3,0,0,0,3,0,0,2,0,3,0,0,0,0,0,3,0,3,0,0,0,0,3,0,3,0,0
+Hemiptera,Corixidae,Diaprepocoris,Diaprepocoris zealandiae,0,3,0,0,0,0,0,0,0,0,2,2,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,3,2,0,0,3,0,0,2,1,3,0,0,3,0,0,2,0,0,2,2,0,0,3,0,3,0,0
+Hemiptera,Hydrometridae,Hydrometra,Hydrometra risbeci,0,3,3,0,0,0,3,0,0,0,0,3,3,0,0,0,0,3,0,0,0,3,0,0,3,0,0,3,0,2,3,0,0,3,0,0,0,3,0,0,0,2,3,0,0,0,0,3,0,2,2,0,0,0,0,3,3,0,0
+Hemiptera,Veliidae,Microvelia,Microvelia,3,0,0,0,0,0,3,0,0,0,0,3,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,3,0,0,water surface,0,0,3,0,0,0,1,3,0,0,0,0,0,3,0,2,2,0,0,0,0,3,3,0,0
+Hemiptera,Mesoveliidae,Mniovelia,Mniovelia kuscheli,3,0,0,0,0,0,3,0,0,0,0,3,3,0,0,0,0,3,0,0,0,3,0,0,0,3,3,0,0,0,3,0,0,water surface,0,0,3,0,0,0,0,3,0,0,0,0,0,3,0,3,0,0,0,0,0,3,3,0,0
+Hemiptera,Saldida,Saldula,Saldula,0,3,0,0,0,3,0,0,0,0,0,3,3,0,0,0,0,3,0,0,0,3,0,0,3,0,0,3,0,0,3,0,0,water surface,0,0,3,0,0,0,2,1,0,0,2,0,0,3,0,0,2,2,0,0,0,3,0,0,0
+Hemiptera,Corixidae,Sigara,Sigara,0,3,0,0,0,3,0,0,0,0,0,3,3,0,0,0,0,3,2,0,0,3,0,3,0,0,0,3,0,0,0,3,3,2,0,0,3,0,0,0,1,3,0,0,2,0,0,1,0,0,2,2,0,0,3,0,3,0,0
+Hirudinea,Glossiphoniidae,Alboglossiphonia,Alboglossiphonia heteroclita,0,3,0,0,0,3,0,0,0,0,3,0,0,3,0,0,0,3,3,0,3,0,0,3,0,0,0,0,3,0,3,2,1,3,1,0,0,0,3,0,3,0,0,0,0,0,0,3,0,3,0,0,3,0,0,0,3,0,0
+Hydridae,Hydra,Hydridae,Hydridae,3,3,1,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,3,3,0,1,0,3,0,0,0,3,0,3,0,0,0,0,0,3,0,0,3,0,0,3,0,0,0,0,0,3,0,2,2,0,3,0,0,0,3,0,0
+Lepidoptera,Pyralidae,Hygraula,Hygraula nitens,0,3,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,0,3,0,1,0,2,2,0,0,3,0,3,0,0,0,0,0,3,0,0,1,3,0,0,0,0,3
+Mecoptera,Nannochoristidae,Nannochorista,Nannochorista philpotti,0,0,3,0,0,3,0,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,2,2,0,0,3,0,3,2,0,0,0,3,0,0,3,0,0,0,3,0,0,0,0,0,3,0,3,0,0,3,0,0,0,0,3,0
+Mollusca,Lymnaeidae,Austropeplea,Austropeplea tomentosa,0,3,0,0,0,0,0,0,0,0,0,3,0,3,0,0,0,3,0,0,3,0,0,3,0,0,0,3,0,3,2,0,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,0,3,0,0,0,3,3,0,0
+Mollusca,Ancylidae,Ferrissia,Ferrissia,3,0,0,0,0,2,2,0,0,0,3,0,0,3,0,0,0,2,2,0,3,0,0,3,0,0,0,3,0,3,0,0,0,1,0,3,3,0,0,0,3,0,3,0,3,0,0,0,0,0,0,3,0,3,0,0,3,0,0
+Mollusca,Planorbidae,Gyraulus,Gyraulus corinna,3,0,0,0,0,3,0,0,0,0,2,3,0,3,0,0,0,3,0,0,3,0,0,3,0,0,0,3,0,3,2,0,1,3,0,0,3,0,0,0,3,0,3,0,3,0,0,0,0,0,0,3,3,0,0,0,3,0,0
+Mollusca,Hydridellinae,Echyridella,Echyridella menziesii,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,3,0,0,3,0,3,0,0,3,0,0,2,2,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,3,0,0
+Mollusca,Latiidae,Latia,Latia neritoides,0,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,0,3,0,3,0,0,3,0,0,3,0,0,3,0,0,0,1,0,3,3,0,0,0,3,0,3,0,3,0,0,0,0,0,0,3,0,3,0,0,3,0,0
+Mollusca,Lymnaeidae,Pseudosuccinea,Pseudosuccinea columella,0,0,3,0,0,0,0,0,0,0,3,0,0,3,0,0,0,3,0,0,3,0,2,2,0,0,0,3,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,0,3,0,0,0,3,3,0,0
+Mollusca,Melanopsidae,Zemelanopsis,Zemelanopsis trifasciata ,0,0,0,3,0,0,0,0,0,0,3,0,3,0,0,0,0,0,3,0,3,0,0,3,0,0,0,3,0,3,2,0,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,0,3,0,3,0,0,3,0,0
+Mollusca,Planorbidae,Glyptophysa,Glyptophysa variabilis,0,0,3,0,0,0,0,0,0,0,3,3,0,3,0,0,0,3,0,0,3,0,0,3,0,0,0,3,0,3,2,0,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,0,3,0,2,0,2,3,0,0
+Mollusca,Physidae,Physa,Physa acuta,0,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,0,3,0,0,3,0,0,0,3,0,2,0,2,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,0,3,0,0,0,3,3,0,0
+Mollusca,Sphaeriidae,Pisidium,Pisidium casertanum,0,3,0,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,0,3,0,0,3 vivip,0,0,0,0,3,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,3,0,0
+Mollusca,Planorbidae,Planorbarius,Planorbarius,0,0,3,0,0,0,0,0,0,0,0,3,0,3,0,0,0,3,0,0,3,0,0,3,0,0,0,3,0,2,0,2,2,2,0,0,3,0,0,0,3,0,0,0,3,0,0,0,0,0,0,3,0,0,0,3,3,0,0
+Mollusca,Tateidae,Potamopyrgus,Potamopyrgus antipodarum,0,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,2,0,2,0,3 vivip,0,0,0,0,3,3,2,0,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,0,3,0,3,0,0,3,0,0
+Mollusca,Sphaeriidae,Sphaerium,Sphaerium novaezelandiae,0,3,0,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,0,3,0,0,3 vivip,0,0,0,0,3,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,3,0,0
+Nematoda,Nematoda,Nematoda,Nematoda,0,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,2,2,2,1,0,3,0,2,0,0,2,0,1,0,3,0,1,2,0,0,0,0,3,0,0,3,0,0,2,2,0,2,0,0,0,3,3,0,0,0,3,0,0
+Nematomorpha,Nematomorpha,Gordioida,Gordioida,0,0,0,0,3,0,0,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,3,0,3,0,2,0,0,3,0,0,3,0,0,0,0,0,2,0,2,0,0,3,0,0,0,2,2,0
+Nemertea,Nemertea,Prosorhocmidae,Prosorhocmidae,0,0,0,3,0,0,3,0,0,0,3,3,0,3,0,2,2,2,2,0,3,0,0,3,0,0,3,0,0,0,3,0,1,3,0,0,0,0,3,0,0,3,0,0,2,0,0,3,0,0,2,2,3,0,0,0,3,0,0
+Neuroptera,Osmylidae,Kempynus,Kempynus,0,0,3,0,0,0,0,0,0,0,3,0,3,0,0,0,0,3,0,0,0,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,0,0,0,0,0,3,0,0,0,3,0,0,0,3,0,2,0
+Odonata,Aeshnidae,Aeshna,Aeshna brevistyla,0,0,0,0,3,3,0,0,0,2,3,0,3,0,0,0,0,3,0,0,0,3,0,0,0,3,3,0,0,0,0,3,1,3,0,0,0,3,0,0,0,3,0,0,0,0,0,3,0,3,0,0,1,3,0,0,0,3,0
+Odonata,Corduliidae,Antipodochlora,Antipodochlora braueri,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,3,0,0,0,0,3,0,0,0,3,2,3,0,0,0,3,0,0,1,2,0,0,0,0,0,3,0,3,0,0,1,3,0,0,0,3,0
+Megaloptera,Corydalidae,Archichauliodes,Archichauliodes diversus,0,0,0,0,3,0,0,3,0,3,0,0,3,0,0,3,0,0,0,0,0,3,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,2,2,0,0,0,0,0,3,0,0,0,3,0,3,0,1,0,3,0
+Odonata,Lestidae,Austrolestes,Austrolestes colensonis,0,0,0,3,0,0,0,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,0,0,3,3,0,0,0,0,3,3,3,0,0,0,3,0,0,0,3,0,0,0,0,0,3,0,3,0,0,1,3,0,0,0,3,0
+Odonata,Libellulidae,Diplacodes,Diplacodes bipunctata,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,3,0,0,0,0,3,0,0,0,3,3,3,0,0,0,3,0,0,1,2,0,0,0,0,0,3,0,3,0,0,1,3,0,0,0,3,0
+Odonata,Corduliidae,Hemicordulia,Hemicordulia australiae,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,3,0,0,0,0,3,0,0,0,3,1,3,0,0,0,3,0,0,1,2,0,0,0,0,0,3,0,3,0,0,1,3,0,0,0,3,0
+Odonata,Coenagrionidae,Ischnura,Ischnura aurora,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,0,0,3,3,0,0,0,0,3,1,3,0,0,0,3,0,0,0,3,0,0,0,0,0,3,0,3,0,0,1,3,0,0,0,3,0
+Odonata,Corduliidae,Procordulia,Procordulia,0,0,0,3,0,0,0,3,0,0,3,0,3,0,0,0,0,3,0,0,0,3,3,0,0,0,0,3,0,0,0,3,1,2,3,0,0,3,0,0,1,2,0,0,0,0,0,3,0,3,0,0,1,3,0,0,0,3,0
+Odonata,Petaluridae,Uropetala,Uropetala,0,0,0,0,3,0,3,0,0,3,0,0,3,0,0,0,0,3,0,0,0,3,0,0,3,0,0,3,0,0,0,3,0,1,3,0,0,3,0,0,0,3,0,0,0,0,0,3,0,3,0,0,1,3,0,0,0,3,0
+Odonata,Coenagrionidae,Xanthocnemis,Xanthocnemis zealandica,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,0,3,0,3,3,3,0,0,0,3,1,3,0,0,0,3,0,0,1,3,0,0,0,0,0,3,0,3,0,0,1,3,0,0,0,3,0
+Oligochaeta,Oligochaeta,Eiseniella,Eiseniella,0,0,0,0,3,0,0,0,0,0,3,0,0,3,0,0,0,3,0,0,3,0,0,3,0,0,2,0,0,3,0,0,0,0,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0
+Oligochaeta,Oligochaeta,Haplotaxidae,Haplotaxidae,0,0,0,0,3,0,0,0,0,0,3,0,0,3,0,0,0,3,0,1,3,0,0,3,0,0,2,0,0,3,0,0,0,0,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0
+Oligochaeta,Oligochaeta,Lumbriculus,Lumbriculus variegatus,0,0,0,0,3,0,0,0,0,0,3,0,0,3,0,0,0,3,0,3,3,0,0,3,0,0,2,0,0,3,0,0,0,0,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0
+Oligochaeta,Oligochaeta,Naididae,Naididae,0,0,3,0,0,0,0,0,0,0,0,3,0,3,0,0,0,3,0,3,3,0,0,3,0,0,2,0,0,3,0,0,0,0,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0
+Oligochaeta,Oligochaeta,Oligochaeta,Oligochaeta,0,0,0,0,3,0,0,0,0,0,3,0,0,3,0,0,0,2,2,2,2,0,0,3,0,0,3,0,0,3,0,0,0,0,3,0,0,0,3,0,0,3,0,0,0,3,0,1,0,0,0,3,3,1,0,0,3,0,0
+Oligochaeta,Oligochaeta,Phreodrilidae,Phreodrilidae,0,0,0,3,0,0,0,0,0,0,3,0,0,3,0,0,0,3,0,1,3,0,0,3,0,0,2,0,0,3,0,0,0,0,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0
+Oligochaeta,Oligochaeta,Stylodrilus,Stylodrilus heringianus,0,0,0,3,0,0,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,2,0,0,3,0,0,2,0,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0
+Oligochaeta,Oligochaeta,Tubificidae,Tubificidae,0,0,0,3,0,0,0,0,0,0,0,3,0,3,0,0,0,3,0,1,3,0,0,3,0,0,2,0,0,3,0,0,0,0,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,0,0,3,3,1,0,0,3,0,0
+Platyhelminthes,Platyhelminthes,Platyhelminthes,Platyhelminthes,0,0,3,0,0,3,0,0,0,0,1,3,0,3,0,0,0,2,0,0,3,0,0,3,0,0,3,0,0,2,2,0,0,3,0,3,0,0,3,0,3,1,0,0,1,0,0,3,0,0,2,2,3,0,0,0,3,0,0
+Ephemeroptera,Leptophlebiidae,Zephlebia,Zephlebia spectabilis,0,3,0,0,0,0,2,2,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Zephlebia,Zephlebia tuberculata,0,3,0,0,0,0,2,2,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Leptophlebiidae,Zephlebia,Zephlebia versicolor,0,3,0,0,0,0,2,2,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,2,0,1,3,0,0,0,3,0,0,0,0,0,0,3,1,3,0,0,0,3,0
+Ephemeroptera,Nesameletidae,Nesameletus,Nesameletus ornatus,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,1,3,2,3,3,0,0,0,3,1,3,1,2,0,0,3,0,0,0,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Nesameletidae,Nesameletus,Nesameletus austrinus,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,1,3,2,3,3,0,0,0,3,1,3,1,2,0,0,3,0,0,0,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Nesameletidae,Nesameletus,Nesameletus flavitinctus,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,1,3,2,3,3,0,0,0,3,1,3,1,2,0,0,3,0,0,0,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Nesameletidae,Nesameletus,Nesameletus murihiku,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,3,3,0,0,0,3,1,3,1,2,0,0,3,0,0,0,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Nesameletidae,Nesameletus,Nesameletus vulcanus,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,1,0,3,3,0,0,0,3,1,3,1,2,0,0,3,0,0,0,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Oniscigastridae,Oniscigaster,Oniscigaster wakefieldi,0,0,0,3,0,0,0,0,3,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,1,0,2,3,1,0,0,3,0,2,2,1,0,0,3,0,0,0,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Oniscigastridae,Oniscigaster,Oniscigaster distans,0,0,0,3,0,0,0,0,3,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,2,3,1,0,0,3,0,2,2,1,0,0,3,0,0,0,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Rallidentidae,Rallidens,Rallidens mcfarlanei,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,0,3,0,3,2,0,0,0,3,1,2,1,2,0,0,3,0,0,0,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Rallidentidae,Rallidens,Rallidens platydontis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,0,3,0,3,2,0,0,0,3,1,3,1,2,0,0,3,0,0,0,0,0,2,2,1,3,0,0,0,3,0
+Ephemeroptera,Siphlaenigmatidae,Siphlaenigma,Siphlaenigma janae,0,3,0,0,0,0,0,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,0,3,0,3,2,0,0,0,3,1,3,1,2,0,0,3,0,0,0,0,0,2,2,1,3,0,0,0,3,0
+Plecoptera,Gripopterygidae,Acroperla,Acroperla christinae,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,0,0,3,1,0,0,0,2,0
+Plecoptera,Gripopterygidae,Acroperla,Acroperla flavescens,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,0,0,3,1,0,0,0,2,0
+Plecoptera,Gripopterygidae,Acroperla,Acroperla samueli,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,0,0,3,1,0,0,0,2,0
+Plecoptera,Gripopterygidae,Acroperla,Acroperla spiniger,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,0,2,3,1,0,0,0,2,0
+Plecoptera,Gripopterygidae,Acroperla,Acroperla trivacuata,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,3,0,0,0,3,0,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,0,2,3,1,0,0,0,2,0
+Plecoptera,Gripopterygidae,Apteryoperla,Apteryoperla illiesi,0,0,3,0,0,0,3,0,0,1,3,0,3,0,0,0,3,1,0,0,0,3,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,2,2,2,0,0,0,3,0
+Plecoptera,Gripopterygidae,Apteryoperla,Apteryoperla lakiula,0,0,3,0,0,0,3,0,0,1,3,0,3,0,0,0,3,1,0,0,0,3,1,0,3,0,3,0,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,2,3,1,0,0,0,1,0
+Plecoptera,Gripopterygidae,Apteryoperla,Apteryoperla monticola,0,0,3,0,0,0,3,0,0,1,3,0,3,0,0,0,3,1,0,0,0,3,1,0,3,0,3,0,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,2,3,1,0,0,0,1,0
+Plecoptera,Gripopterygidae,Apteryoperla,Apteryoperla nancyae,0,0,3,0,0,0,3,0,0,1,3,0,3,0,0,0,3,1,0,0,0,3,1,0,3,0,3,0,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,2,3,1,0,0,0,1,0
+Plecoptera,Gripopterygidae,Apteryoperla,Apteryoperla ramsayi,0,0,3,0,0,0,3,0,0,1,3,0,3,0,0,0,3,1,0,0,0,3,1,0,3,0,3,0,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,2,3,1,0,0,0,1,0
+Plecoptera,Gripopterygidae,Apteryoperla,Apteryoperla tillyardi,0,0,3,0,0,0,3,0,0,1,3,0,3,0,0,0,3,1,0,0,0,3,1,0,3,0,3,0,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,2,3,1,0,0,0,1,0
+Plecoptera,Austroperlidae,Austroperla,Austroperla cyrene,0,0,3,0,0,0,3,0,0,3,1,0,3,0,0,0,3,1,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,3,0,0,1,3,0,3,0,1,0,1,0,2,2,0,3,2,0,0,0,3,0
+Plecoptera,Notonemouridae,Cristaperla,Cristaperla eylesi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,1,3,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Cristaperla,Cristaperla fimbria,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,1,3,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Cristaperla,Cristaperla waharoa,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,1,3,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Halticoperla,Halticoperla gibbsi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Halticoperla,Halticoperla tara,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Halticoperla,Halticoperla viridans,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Gripopterygidae,Holcoperla,Holcoperla angularis,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,3,3,0,0,0,0,1,0
+Plecoptera,Gripopterygidae,Holcoperla,Holcoperla jacksoni,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,1,0,3,0,3,0,0,2,2,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,3,3,0,0,0,0,1,0
+Plecoptera,Gripopterygidae,Holcoperla,Holcoperla magna,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,1,0,3,0,3,0,0,2,2,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,3,3,0,0,0,0,1,0
+Plecoptera,Gripopterygidae,Megaleptoperla,Megaleptoperla diminuta,0,3,0,0,0,0,3,0,0,3,2,0,3,0,0,0,3,1,0,0,0,3,3,2,0,0,1,0,3,2,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,1,0,0,0,0,0,2,2,2,0,0,0,3,0
+Plecoptera,Gripopterygidae,Megaleptoperla,Megaleptoperla grandis,0,0,0,3,0,0,3,0,0,3,2,0,3,0,0,0,3,1,0,0,0,3,3,1,0,0,1,0,3,2,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,1,0,2,0,0,0,2,2,2,0,0,0,3,0
+Plecoptera,Gripopterygidae,Nesoperla,Nesoperla fulvescens,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,3,0,0,2,2,0,0,3,0,0,2,2,0,0,3,0,0,0,3,0,0,1,3,0,0,2,2,0,0,0,0,0,2,3,1,0,0,0,1,0
+Plecoptera,Gripopterygidae,Nesoperla,Nesoperla patricki,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,3,0,0,2,2,0,0,3,0,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,0,2,2,0,0,0,0,0,2,3,1,0,0,0,1,0
+Plecoptera,Notonemouridae,Notonemoura,Notonemoura alisteri,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Notonemoura,Notonemoura hendersoni,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Notonemoura,Notonemoura latipennis,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Notonemoura,Notonemoura spinosa,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Notonemoura,Notonemoura winstanleyi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Omanuperla,Omanuperla bruningi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,3,1,0,0,1,3,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Omanuperla,Omanuperla hollowayae,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,3,1,0,0,1,3,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Otehiwi,Otehiwi sagittarius,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,1,3,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Polychaeta,Polychaeta,Polychaeta,Polychaeta,0,0,0,3,1,0,0,0,0,0,3,0,3,0,0,0,0,3,0,0,3,0,0,3,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,3,0,0,0,3,0,0,0,0,0,0,3,0,0,0,3,0,0
+Tardigrada,Tardigrada,Tardigrada,Tardigrada,3,0,0,0,0,3,0,0,0,0,0,3,0,3,0,0,0,2,2,2,0,2,1,0,3,0,2,2,0,0,3,0,0,3,0,0,0,3,0,0,0,3,0,2,2,0,0,2,2,0,3,0,0,0,0,3,3,0,0
+Plecoptera,Notonemouridae,Spaniocerca,Spaniocerca acuta,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocerca,Spaniocerca bicornuta,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocerca,Spaniocerca hamishi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocerca,Spaniocerca longicauda,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocerca,Spaniocerca minor,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocerca,Spaniocerca zelandica,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocerca,Spaniocerca zwicki,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocercoides,Spaniocercoides cowleyi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,1,3,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocercoides,Spaniocercoides foxi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,1,3,0,0,3,0,0,1,3,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocercoides,Spaniocercoides howesi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,1,3,0,0,3,0,0,1,2,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocercoides,Spaniocercoides hudsoni,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,1,3,0,0,3,0,0,1,2,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocercoides,Spaniocercoides jacksoni,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,1,3,0,0,3,0,0,1,2,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocercoides,Spaniocercoides philpotti,0,3,0,2,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,3,0,0,0,3,0,0,1,2,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocercoides,Spaniocercoides townsendi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,1,3,0,0,3,0,0,1,2,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Notonemouridae,Spaniocercoides,Spaniocercoides watti,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,2,2,0,0,1,2,0,2,1,0,0,1,3,0,0,3,0,0,1,2,0,0,0,2,0,0,0,0,0,3,3,0,0,0,0,3,0
+Plecoptera,Eustheniidae,Stenoperla,Stenoperla helsoni,0,0,0,3,0,0,3,0,0,0,3,1,3,0,0,0,1,3,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,0,3,0,0,3,1,0,0,1,0,0,3,0,0,1,3,2,2,0,0,0,3,0
+Plecoptera,Eustheniidae,Stenoperla,Stenoperla hendersoni,0,0,0,3,0,0,3,0,0,0,3,1,3,0,0,0,1,3,0,0,0,3,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,1,0,0,1,0,0,3,0,0,1,3,2,2,0,0,0,3,0
+Plecoptera,Eustheniidae,Stenoperla,Stenoperla maclellani,0,0,0,3,0,0,3,0,0,0,3,1,3,0,0,0,1,3,0,0,0,3,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,1,0,0,1,0,0,3,0,0,1,3,2,2,0,0,0,3,0
+Plecoptera,Eustheniidae,Stenoperla,Stenoperla prasina,0,0,0,3,0,0,3,0,0,0,3,1,3,0,0,0,1,3,0,0,0,3,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,1,0,0,1,0,0,3,0,0,1,3,2,2,0,0,0,3,0
+Plecoptera,Gripopterygidae,Taraperla,Taraperla ancilis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,3,1,0,0,3,0,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,3,3,1,0,0,0,2,0
+Plecoptera,Gripopterygidae,Taraperla,Taraperla howesi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,3,1,0,0,3,0,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,3,3,1,0,0,0,2,0
+Plecoptera,Gripopterygidae,Taraperla,Taraperla johnsi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,3,1,0,0,3,0,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,3,3,1,0,0,0,2,0
+Plecoptera,Gripopterygidae,Taraperla,Taraperla pseudocyrene,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,1,0,0,0,3,3,1,0,0,3,0,0,2,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,0,3,3,1,0,0,0,2,0
+Plecoptera,Gripopterygidae,Vesicaperla,Vesicaperla celmisia,0,0,3,0,0,0,3,0,0,2,2,0,3,0,0,0,3,1,0,0,0,3,0,0,3,0,3,0,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,1,3,3,0,0,0,0,1,0
+Plecoptera,Gripopterygidae,Vesicaperla,Vesicaperla dugdalei,0,0,3,0,0,0,3,0,0,2,2,0,3,0,0,0,3,1,0,0,0,3,0,0,3,0,3,0,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,1,3,3,0,0,0,0,1,0
+Plecoptera,Gripopterygidae,Vesicaperla,Vesicaperla eylesi,0,0,3,0,0,0,3,0,0,2,2,0,3,0,0,0,3,1,0,0,0,3,0,0,3,0,3,0,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,1,3,3,0,0,0,0,1,0
+Plecoptera,Gripopterygidae,Vesicaperla,Vesicaperla kuscheli,0,0,3,0,0,0,3,0,0,2,2,0,3,0,0,0,3,1,0,0,0,3,0,0,3,0,3,0,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,1,3,3,0,0,0,0,1,0
+Plecoptera,Gripopterygidae,Vesicaperla,Vesicaperla substirpes,0,0,3,0,0,0,3,0,0,2,2,0,3,0,0,0,3,1,0,0,0,3,0,0,3,0,3,0,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,1,3,3,0,0,0,0,1,0
+Plecoptera,Gripopterygidae,Vesicaperla,Vesicaperla townsendi,0,0,3,0,0,0,3,0,0,2,2,0,3,0,0,0,3,1,0,0,0,3,0,0,3,0,3,0,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,1,3,3,0,0,0,0,1,0
+Plecoptera,Gripopterygidae,Vesicaperla,Vesicaperla trilinea,0,0,3,0,0,0,3,0,0,2,2,0,3,0,0,0,3,1,0,0,0,3,0,0,3,0,3,0,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,2,2,0,0,0,0,0,1,3,3,0,0,0,0,1,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius alatus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius albofasciatus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius auratus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius brevicauda,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius childi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius confusus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,2,2,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius cordatus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius dugdalei,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius foxi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius furcillatus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,2,2,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius gibbsi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius illiesi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius inversus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius jacksoni,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius kuscheli,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius macburneyi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,2,2,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius mariae,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius montanus,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius ngaire,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius patricki,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,2,2,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius peglegensis,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius pilosus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,1,3,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius takahe,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius truncus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius unicolor,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,2,2,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius uniramus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,1,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandobius,Zelandobius wardi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,3,0,0,0,2,2,0,3,0,0,0,3,0,0,0,3,0,0,1,3,0,1,3,0,0,0,0,0,1,3,3,1,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandoperla,Zelandoperla agnetis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,3,0,0,0,3,0,0,1,3,0,0,3,0,0,0,3,0,0,3,2,0,0,3,0,0,0,0,0,2,2,2,2,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandoperla,Zelandoperla decorata,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,3,0,0,0,3,0,0,1,3,0,0,3,0,0,0,3,0,0,3,2,0,0,3,0,0,0,0,0,2,2,2,2,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandoperla,Zelandoperla denticulata,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,0,3,0,0,3,2,0,0,3,0,0,0,0,0,2,2,2,2,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandoperla,Zelandoperla fenestrata,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,3,0,0,0,3,0,0,1,3,0,0,3,0,0,0,3,0,0,3,2,0,0,3,0,0,0,0,0,2,2,2,2,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandoperla,Zelandoperla pennulata,0,0,2,2,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,0,3,0,0,3,2,0,0,3,0,0,0,0,0,2,2,2,2,0,0,0,3,0
+Plecoptera,Gripopterygidae,Zelandoperla,Zelandoperla tillyardi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,0,3,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,0,3,0,0,3,2,0,0,3,0,0,0,0,0,2,2,2,2,0,0,0,3,0
+Trichoptera,Calocidae,Pycnocentrella,Pycnocentrella eruensis,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Chathamiidae,Chathamia,Chathamia brevipennis,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,1,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,2,2,2,3,0,0,0,0,3
+Trichoptera,Chathamiidae,Chathamia,Chathamia integripennis,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,1,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,2,2,2,3,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Atrachorema,Atrachorema macfarlanei,0,0,2,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Atrachorema,Atrachorema mangu,0,0,2,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Atrachorema,Atrachorema tuarua,0,0,2,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Ecnomidae,Ecnomina,Ecnomina zealandica,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,1,0,0,0,0,3,0,3,0,0,3,1,0,2,2,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,1,0,0,2,2,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Costachorema,Costachorema brachypterum,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,2,2,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Costachorema,Costachorema callistum,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,2,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Costachorema,Costachorema hebdomon,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Costachorema,Costachorema hecton,0,0,3,1,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Costachorema,Costachorema notopterum,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Costachorema,Costachorema peninsulae,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Costachorema,Costachorema psaropterum,0,0,3,1,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,2,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Costachorema,Costachorema xanthopterum,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,2,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia maxima,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Chathamiidae,Philanisus,Philanisus fasciatus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,1,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,3,2,0,2,3,0,0,0,0,3
+Trichoptera,Chathamiidae,Philanisus,Philanisus mataua,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,1,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,3,2,0,2,3,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia banksiensis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia borealis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia cassicola,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,3,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia dugdalei,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia flintorum,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia fusca,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia harrisoni,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,1,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia morrisi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,1,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia oriens,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia shandi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia spaini,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia thomasoni,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia schistaria,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia tahatika,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Edpercivalia,Edpercivalia smithi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Erichorema,Erichorema basale,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis parumbripennis,0,0,1,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,1,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Chathamiidae,Philanisus,Philanisus plebeius,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,1,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,3,2,0,2,3,0,0,0,0,3
+Trichoptera,Conoesucidae,Beraeoptera,Beraeoptera roria,2,2,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,0,3,2,3,0,0,0,0,3
+Trichoptera,Conoesucidae,Pycnocentrodes,Pycnocentrodes aureolus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,1,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,2,2,2,3,0,0,0,0,3
+Trichoptera,Conoesucidae,Pycnocentrodes,Pycnocentrodes aeris,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,1,0,3,0,0,3,0,0,0,0,3,0,0,3,0,0,0,0,0,2,2,2,3,0,0,0,0,3
+Trichoptera,Conoesucidae,Confluens,Confluens hamiltoni,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,2,3,0,0,0,0,2,2,0,2,3,0,0,0,0,3
+Trichoptera,Conoesucidae,Confluens,Confluens olingoides,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,2,3,0,0,0,0,2,2,0,2,3,0,0,0,0,3
+Trichoptera,Conoesucidae,Olinga,Olinga feredayi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,1,3,0,0,0,0,0,0,3,2,3,0,0,0,0,3
+Trichoptera,Conoesucidae,Olinga,Olinga fumosa,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,1,3,0,0,0,0,0,0,3,2,3,0,0,0,0,3
+Trichoptera,Conoesucidae,Olinga,Olinga jeanae,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,1,3,0,0,0,0,0,0,3,2,3,0,0,0,0,3
+Trichoptera,Conoesucidae,Olinga,Olinga christinae,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,1,3,0,0,0,0,0,0,3,2,3,0,0,0,0,3
+Trichoptera,Conoesucidae,Periwinkla,Periwinkla childi,2,2,0,0,0,0,0,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,3,0,0,0,0,3,0,1,3,0,0,0,0,0,2,2,2,2,0,0,0,0,3
+Trichoptera,Conoesucidae,Pycnocentria,Pycnocentria evecta,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,2,2,0,0,0,0,0,2,1,3,0,0,0,0,0,3
+Trichoptera,Ecnomidae,Zelandoptila,Zelandoptila moselyi,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,1,0,0,0,0,3,0,3,0,0,0,3,0,1,2,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,1,0,0,2,2,3,0,0,0,0,0,3
+Trichoptera,Conoesucidae,Pycnocentria,Pycnocentria forcipata,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,2,2,0,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Conoesucidae,Pycnocentria,Pycnocentria funerea,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,2,0,3,0,0,0,0,3,0,3,1,0,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Conoesucidae,Pycnocentria,Pycnocentria gunni,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,2,2,0,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Conoesucidae,Pycnocentria,Pycnocentria hawdonia,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,2,2,0,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Conoesucidae,Pycnocentria,Pycnocentria mordax,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,2,2,0,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Conoesucidae,Pycnocentria,Pycnocentria patricki,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,2,2,0,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis budgei,0,0,1,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,1,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis centralis,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,1,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis chalcodes,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,1,3,1,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis charadraea,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,0,3,2,1,1,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis clavigera,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,1,2,1,0,3,0,0,0,3,2,1,1,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis copis,0,0,1,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,1,3,1,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis falcis,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis frater,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,3,1,0,3,0,0,0,3,2,1,1,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis gollanis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis harpidiosa,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,0,3,2,1,1,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis johnsi,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,1,3,1,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis kiddi,0,0,3,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis lindsayi,0,0,1,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis neadelphus,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis sherleyi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis silvicola,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis soror,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,0,3,2,1,1,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis spatulata,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis styracine,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis styx,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis taumata,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis torrentis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,1,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrobiosis,Hydrobiosis umbripennis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,3,1,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrochorema,Hydrochorema lyfordi,0,1,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrochorema,Hydrochorema crassicaudatum,0,1,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Hydrochorema,Hydrochorema tenuicaudatum,0,0,0,3,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Conoesucidae,Pycnocentria,Pycnocentria sylvestris,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,1,0,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Helicophidae,Alloecentrella,Alloecentrella magnicornis,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,3,0,0,3,0,0,0,0,3,0,3,2,1,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Helicophidae,Alloecentrella,Alloecentrella linearis,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,3,0,0,3,0,0,0,0,3,0,3,2,1,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Helicophidae,Alloecentrella,Alloecentrella cirratus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,3,0,0,3,0,0,0,0,3,0,3,2,1,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Helicophidae,Alloecentrella,Alloecentrella incisus,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,3,0,0,3,0,0,0,0,3,0,3,2,1,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Helicophidae,Zelolessica,Zelolessica cheira,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,3,0,0,3,0,0,0,0,3,0,2,2,2,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Helicophidae,Zelolessica,Zelolessica meizon,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,3,0,0,3,0,0,0,0,3,0,2,2,2,0,0,0,1,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Oxyethira,Oxyethira albiceps,3,0,0,0,0,0,3,0,0,0,2,3,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,3,1,0,3,0,0,1,3,0,0,3,2,0,0,1,0,0,0,3,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Oxyethira,Oxyethira ahipara,3,0,0,0,0,0,3,0,0,0,3,1,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Oxyethira,Oxyethira kirikiriroa,3,0,0,0,0,0,3,0,0,0,3,1,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Oxyethira,Oxyethira waipoua,3,0,0,0,0,0,3,0,0,0,3,1,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Helicopsychidae,Helicopsyche,Helicopsyche albescens,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,3,0,0,0,2,3,0,0,3,0,0,0,0,0,2,2,3,0,0,0,0,0,3
+Trichoptera,Helicopsychidae,Helicopsyche,Helicopsyche cuvieri,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,3,0,0,0,2,3,0,0,3,0,0,0,0,0,2,2,3,0,0,0,0,0,3
+Trichoptera,Helicopsychidae,Helicopsyche,Helicopsyche haurapango,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,3,0,0,0,2,3,0,0,3,0,0,0,0,0,2,2,3,0,0,0,0,0,3
+Trichoptera,Helicopsychidae,Helicopsyche,Helicopsyche howesi,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,3,0,0,0,2,3,0,0,3,0,0,0,0,0,2,2,3,0,0,0,0,0,3
+Trichoptera,Helicopsychidae,Helicopsyche,Helicopsyche poutini,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,3,0,0,0,2,3,0,0,3,0,0,0,0,0,2,2,3,0,0,0,0,0,3
+Trichoptera,Helicopsychidae,Helicopsyche,Helicopsyche torino,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,3,0,0,0,2,3,0,0,3,0,0,0,0,0,2,2,3,0,0,0,0,0,3
+Trichoptera,Helicopsychidae,Helicopsyche,Helicopsyche zealandica,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,3,0,0,0,3,0,0,2,1,0,0,3,0,0,3,0,0,0,2,3,0,0,3,0,0,0,0,0,2,2,3,0,0,0,0,0,3
+Trichoptera,Helicopsychidae,Rakiura,Rakiura vernale,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,0,0,0,0,3,0,3,0,0,0,3,2,3,1,0,0,3,0,0,3,0,0,0,1,3,0,0,3,0,0,0,0,0,0,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Neurochorema,Neurochorema armstrongi,0,1,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Neurochorema,Neurochorema confusum,0,1,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Neurochorema,Neurochorema forsteri,0,1,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Neurochorema,Neurochorema pilosum,0,1,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydropsychidae,Diplectrona,Diplectrona bulla,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,1,2,1,0,1,0,2,0,3,1,0,0,3,0,0,0,0,3,1,0,0,0,3,0,3,0,0,0,0,3
+Trichoptera,Hydropsychidae,Diplectrona,Diplectrona zealandensis,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,1,2,1,0,1,0,2,0,3,1,0,0,3,0,0,0,0,3,1,0,0,0,3,0,3,0,0,0,0,3
+Trichoptera,Hydropsychidae,Hydropsyche (Aoteapsyche),Hydropsyche (Aoteapsyche) colonica,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,2,0,1,0,2,0,3,1,0,0,3,0,0,0,0,3,1,0,0,0,3,0,3,0,0,0,0,3
+Trichoptera,Hydropsychidae,Hydropsyche (Aoteapsyche),Hydropsyche (Aoteapsyche) catherinae,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,2,0,1,0,2,0,3,1,0,0,3,0,0,0,0,3,1,0,0,0,3,0,3,0,0,0,0,3
+Trichoptera,Hydropsychidae,Hydropsyche (Aoteapsyche),Hydropsyche (Aoteapsyche) philpotti,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,2,0,1,0,2,0,3,1,0,0,3,0,0,0,0,3,1,0,0,0,3,0,3,0,0,0,0,3
+Trichoptera,Hydropsychidae,Hydropsyche (Aoteapsyche),Hydropsyche (Aoteapsyche) raruraru,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,2,0,1,0,2,0,3,1,0,0,3,0,0,0,0,3,1,0,0,0,3,0,3,0,0,0,0,3
+Trichoptera,Hydropsychidae,Hydropsyche (Aoteapsyche),Hydropsyche (Aoteapsyche) tepoka,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,2,0,1,0,2,0,3,1,0,0,3,0,0,0,0,3,1,0,0,0,3,0,3,0,0,0,0,3
+Trichoptera,Hydropsychidae,Hydropsyche (Aoteapsyche),Hydropsyche (Aoteapsyche) tipua,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,2,0,1,0,2,0,3,1,0,0,3,0,0,0,0,3,1,0,0,0,3,0,3,0,0,0,0,3
+Trichoptera,Hydropsychidae,Hydropsyche (Aoteapsyche),Hydropsyche (Aoteapsyche) winterbourni,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,3,2,0,1,0,2,0,3,1,0,0,3,0,0,0,0,3,1,0,0,0,3,0,3,0,0,0,0,3
+Trichoptera,Hydropsychidae,Hydropsyche (Orthopsyche),Hydropsyche (Orthopsyche) fimbriata,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,1,0,2,0,3,1,0,0,3,0,0,0,0,3,1,0,0,0,3,0,3,0,0,0,0,3
+Trichoptera,Hydropsychidae,Hydropsyche (Orthopsyche),Hydropsyche (Orthopsyche) thomasi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,1,0,2,0,3,1,0,0,3,0,0,0,0,3,1,0,0,0,3,0,3,0,0,0,0,3
+Trichoptera,Kokiriidae,Kokiria,Kokiria miharo,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,1,3,0,0,2,3,0,3,0,0,0,2,3,0,0,0,0,0,3,0,2,2,0,1,3,0,0,0,0,3
+Trichoptera,Leptoceridae,Hudsonema,Hudsonema amabile,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,3,0,0,0,3,0,0,0,3,2,0,3,0,0,3,0,0,0,0,3,0,0,2,2,0,3,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Leptoceridae,Hudsonema,Hudsonema alienum,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,3,0,0,0,3,0,0,0,3,2,1,3,0,0,3,0,0,0,0,3,0,0,2,2,0,3,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Leptoceridae,Triplectides,Triplectides cephalotes,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,1,3,0,0,0,0,3,0,3,2,0,3,0,0,3,0,0,0,0,3,0,3,0,0,0,0,0,3,0,0,1,3,0,0,0,0,3
+Trichoptera,Leptoceridae,Triplectides,Triplectides dolichos,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,1,3,0,0,2,2,0,0,3,2,0,3,0,0,3,0,0,0,0,3,0,3,0,0,0,0,0,3,0,0,1,3,0,0,0,0,3
+Trichoptera,Leptoceridae,Triplectides,Triplectides obsoletus,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,1,3,0,0,2,2,0,0,3,2,0,3,0,0,3,0,0,0,0,3,0,3,0,0,0,0,0,3,0,0,1,3,0,0,0,0,3
+Trichoptera,Leptoceridae,Triplectidina,Triplectidina moselyi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,1,3,0,0,2,2,0,0,2,1,0,3,0,0,3,0,0,0,0,3,0,3,0,0,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Leptoceridae,Triplectidina,Triplectidina oreolimnetes,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,1,3,0,0,2,2,0,0,2,1,0,3,0,0,3,0,0,0,0,3,0,3,0,0,0,0,0,0,2,3,1,3,0,0,0,0,3
+Trichoptera,Leptoceridae,Oecetis,Oecetis iti,0,3,0,0,0,2,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,3,0,0,0,3,0,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,0,0,0,0,3,0,0,2,3,1,3,0,0,0,0,3
+Trichoptera,Leptoceridae,Oecetis,Oecetis unicolor,0,3,0,0,0,2,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,3,0,0,0,3,0,0,1,3,2,0,3,0,0,3,0,0,0,0,3,0,0,0,0,0,3,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema acheir,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema bidens,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema cheirodes,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema donaldsoni,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema embersoni,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema folioharpax,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema leptoharpax,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema macroharpax,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema mataura,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema mimicum,0,0,3,0,0,0,3,1,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema nemorale,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema spiniharpax,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,0,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema tautoru,0,0,3,0,0,0,3,1,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Psilochorema,Psilochorema vomerharpax,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Synchorema,Synchorema tillyardi,0,1,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,3,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Synchorema,Synchorema zygoneurum,0,1,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,3,0,0,3,0,0,0,3,2,1,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis cataractae,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis childella,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis childi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis cowiei,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis hinewai,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis intermedia,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis kleinpastei,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis kuscheli,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis plicosta,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis quadrifurca,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis salmoni,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis schmidi,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis trifurca,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Tiphobiosis,Tiphobiosis veniflex,0,3,1,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Traillochorema,Traillochorema rakiura,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Hydrobiosidae,Traillochorema,Traillochorema wardorum,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,3,0,0,0,3,2,0,0,3,0,0,0,0,0,3,0,0,1,3,3,0,0,0,0,0,3
+Trichoptera,Oeconesidae,Zelandopsyche,Zelandopsyche ingens,0,0,0,3,0,0,3,0,0,3,1,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,1,0,3,1,0,3,0,0,0,0,3,0,3,0,0,0,0,0,3,0,0,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Zelandopsyche,Zelandopsyche maclellani,0,0,0,3,0,0,3,0,0,3,1,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,0,0,0,0,0,3,0,0,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Oeconesus,Oeconesus maori,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,0,2,1,0,3,1,0,3,0,0,0,0,3,0,3,0,0,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Oeconesus,Oeconesus angustus,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,1,0,3,0,0,0,0,3,0,3,0,0,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Oeconesus,Oeconesus incisus,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,0,0,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Oeconesus,Oeconesus similis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,0,0,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Pseudoeconesus,Pseudoeconesus bistirpis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Pseudoeconesus,Pseudoeconesus geraldinae,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Pseudoeconesus,Pseudoeconesus haasti,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Pseudoeconesus,Pseudoeconesus harrisi,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira auldorum,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira dunedensis,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira eatoni,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira hendersoni,3,0,0,0,0,0,3,0,0,0,3,3,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,3,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira hintoni,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira hughwilsoni,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira kimminsi,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira manapouri,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira pounamu,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira ramifera,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira sarae,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira takitimu,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira teika,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira tillyardi,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Paroxyethira,Paroxyethira zoae,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Hydroptilidae,Xuthotrichia,Xuthotrichia aotea,3,0,0,0,0,0,3,0,0,0,3,0,3,0,0,2,0,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,0,0,1,3,0,0,3,2,0,0,2,0,0,0,2,3,2,0,3,0,0,0,0,0,3
+Trichoptera,Oeconesidae,Pseudoeconesus,Pseudoeconesus hendersoni,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,1,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Pseudoeconesus,Pseudoeconesus hudsoni,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Pseudoeconesus,Pseudoeconesus mimus,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Pseudoeconesus,Pseudoeconesus paludis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Pseudoeconesus,Pseudoeconesus squamosus,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Pseudoeconesus,Pseudoeconesus stramineus,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Tarapsyche,Tarapsyche olis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Oeconesidae,Zepsyche,Zepsyche acinaces,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,3,0,1,0,0,0,0,2,2,1,3,0,0,0,0,3
+Trichoptera,Philorheithridae,Philorheithrus,Philorheithrus agilis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,0,0,0,0,3,0,0,3,0,1,3,0,0,0,0,3
+Trichoptera,Philorheithridae,Philorheithrus,Philorheithrus aliciae,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,0,0,0,0,3,0,0,3,0,1,3,0,0,0,0,3
+Trichoptera,Philorheithridae,Philorheithrus,Philorheithrus harunae,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,3,0,0,3,0,0,0,0,3,0,0,0,0,0,3,0,0,3,0,1,3,0,0,0,0,3
+Trichoptera,Philorheithridae,Philorheithrus,Philorheithrus lacustris,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,0,0,3,0,0,0,0,3,0,0,0,0,0,3,0,0,3,0,1,3,0,0,0,0,3
+Trichoptera,Philopotamidae,Hydrobiosella,Hydrobiosella aorere,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,0,0,0,2,1,3,1,0,0,0,0,3
+Trichoptera,Philopotamidae,Hydrobiosella,Hydrobiosella mixta,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,2,3,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,0,0,0,2,1,3,1,0,0,0,0,3
+Trichoptera,Philopotamidae,Hydrobiosella,Hydrobiosella stenocerca,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,2,3,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,0,0,0,2,1,3,1,0,0,0,0,3
+Trichoptera,Philopotamidae,Hydrobiosella,Hydrobiosella tonela,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,0,0,0,2,1,3,1,0,0,0,0,3
+Trichoptera,Philopotamidae,Cryptobiosella,Cryptobiosella furcata,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,0,0,0,2,1,3,1,0,0,0,0,3
+Trichoptera,Philopotamidae,Cryptobiosella,Cryptobiosella hastata,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,0,0,0,2,1,3,1,0,0,0,0,3
+Trichoptera,Philopotamidae,Cryptobiosella,Cryptobiosella spinosa,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,0,0,0,2,1,3,1,0,0,0,0,3
+Trichoptera,Philopotamidae,Cryptobiosella,Cryptobiosella tridens,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,0,0,0,2,1,3,1,0,0,0,0,3
+Trichoptera,Philopotamidae,Neobiosella,Neobiosella irrorata,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,0,0,0,2,1,3,1,0,0,0,0,3
+Trichoptera,Philopotamidae,Xenobiosella,Xenobiosella motueka,0,3,0,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,0,0,0,2,1,3,1,0,0,0,0,3
+Trichoptera,Philorheithridae,Philorheithrus,Philorheithrus latentis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,3,1,0,3,0,0,0,0,3,0,0,0,0,0,3,0,0,3,0,2,3,0,0,0,0,3
+Trichoptera,Philorheithridae,Philorheithrus,Philorheithrus litoralis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,0,3,0,0,0,0,3,0,3,0,0,0,3,0,3,0,0,0,3,1,0,3,0,0,0,0,3,0,0,0,0,0,3,0,0,3,0,2,3,0,0,0,0,3
+Trichoptera,Polycentropodidae,Plectrocnemia,Plectrocnemia maclachlani,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,2,0,0,0,3,3,1,0,0,0,0,3
+Trichoptera,Polycentropodidae,Plectrocnemia,Plectrocnemia tuhuae,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,3,1,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,2,0,0,0,3,3,1,0,0,0,0,3
+Trichoptera,Polycentropodidae,Polyplectropus,Polyplectropus puerilis,0,0,3,0,0,0,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,2,3,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,2,0,0,0,3,3,1,0,0,0,0,3
+Trichoptera,Polycentropodidae,Polyplectropus,Polyplectropus altera,0,0,3,0,0,3,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,2,3,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,2,0,0,0,3,3,1,0,0,0,0,3
+Trichoptera,Polycentropodidae,Polyplectropus,Polyplectropus aurifusca,0,0,3,0,0,3,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,2,3,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,2,0,0,0,3,3,1,0,0,0,0,3
+Trichoptera,Polycentropodidae,Polyplectropus,Polyplectropus impluvii,0,0,3,0,0,3,3,0,0,0,3,0,3,0,0,2,2,0,0,0,0,3,0,3,0,0,0,3,0,2,2,0,0,1,0,2,0,3,2,0,0,3,0,0,0,0,3,2,0,0,0,3,3,1,0,0,0,0,3
