@@ -16,6 +16,6 @@ Separate R Scripts and datasets are held for analyses of different databases. Al
 
 **New Zealand**: `NZ_Database_Analysis.R` and `NZ_Data_Raw.csv`
 
-**South Africa**: `SA_Database_Analysis.R' and 'SA_Database.csv`
+**South Africa**: `SA_Database_Analysis.R` and `SA_Database.csv`
 
 **USA**: `US_Database_Analysis.R`, `US_TSN_Data.csv` and `US_Trait_Data.csv`
